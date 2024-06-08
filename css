@@ -1,0 +1,70 @@
+/* Background and text color */
+body {
+  background-color: #1e1e1e;
+  color: #c0c0c0;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: #2d2d2d;
+  color: #c0c0c0;
+}
+
+/* Channel list */
+#sidebar .chan,
+#sidebar .network {
+  background-color: #2d2d2d;
+  color: #c0c0c0;
+}
+
+/* Channel headers */
+#sidebar .chan.active,
+#sidebar .network.active {
+  background-color: #3c3c3c;
+}
+
+/* Main chat area */
+#chat {
+  background-color: #1e1e1e;
+  color: #c0c0c0;
+}
+
+/* Messages */
+#chat .msg {
+  color: #c0c0c0;
+}
+
+/* Links */
+a {
+  color: #a0c4ff;
+}
+
+/* Inputs */
+#input {
+  background-color: #2d2d2d;
+  color: #c0c0c0;
+}
+
+#input:focus {
+  background-color: #3c3c3c;
+}
+
+/* Buttons */
+.button {
+  background-color: #2d2d2d;
+  color: #c0c0c0;
+}
+
+.button:hover {
+  background-color: #3c3c3c;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3c3c3c;
+  border-radius: 10px;
+}
